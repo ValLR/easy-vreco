@@ -9,21 +9,21 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-	<section class="info">
+	<section class="container">
 		<div class="row">
 			<div class="col-md-3 col-sm-3">
 				<button id="encuentrame">Encuéntrame</button>
 			</div>
 			<div class="col-md-3 col-sm-3">
 				<label>Origen</label>
-				<input type="" name="origin" class="input" placeholder="Introduce una ubicación">
+				<input type="text" name="origin" id="origen" class="input" placeholder="¿Dónde inicia tu ruta?">
 			</div>
 			<div class="col-md-3 col-sm-3">
 				<label>Destino</label>
-				<input type="" name="destination" class="input" placeholder="Introduce una ubicación">
+				<input type="" name="destination" class="input" placeholder="¿Cuál es tu destino?">
 			</div>
 			<div class="col-md-3 col-sm-3">
-				<button id="ruta">Ruta</button>
+				<button id="ruta">Crear Ruta</button>
 			</div>
 			
 		</div>
@@ -34,8 +34,9 @@
 		</div>
 
 	</section>
-	<script async defer src="https://maps.googleapis.com/maps/api/js?AIzaSyBBbbra2KULJN6k1lr-chTBh8KwaLwpF1c&callback=initMap&libraries=places"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJAl2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><!-- jquery -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><!-- bootstrap -->
+	<script type="text/javascript" src="assets/js/main.js"></script><!-- archivo js -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyClwzibvDvM7w-J8P6_szVXboqEe6oZtW4&libraries=places&callback=initMap"></script> <!-- api -->
 </body>
 </html>
