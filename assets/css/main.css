@@ -10,8 +10,14 @@
 	border: 2px solid #90F380;
 	border-radius: 10px;
 }
+.container{
+	margin-left:0;
+	margin-right:0;
+}
 body{
 	background-image: url("http://data.whicdn.com/images/107354234/large.jpg");
+	font-family: 'Raleway', sans-serif;
+
 }
 .cont-1{
 	background-color: #90F380;
